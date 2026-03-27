@@ -34,6 +34,7 @@ allowed-tools:
 | C | 施工計画者 | personas/construction_core.md | 施工性・納まり・工程・安全 |
 | R | 法令許認可 | personas/regulatory_core.md | 法適合・許認可リスク・行政運用 |
 | B | 事業性リスク | personas/biz_risk_core.md | 収支成立性・コスト変動・プロジェクトリスク |
+| A | 意匠設計者 | personas/architectural_core.md | 空間の質・設計コンセプト・VE時の守り譲り |
 
 ---
 
@@ -80,6 +81,7 @@ AskUserQuestionで補足を求める:
 **施工の目**: 敷地条件・搬入路・仮設計画・工程バッファに着目。図面の納まり、山留リスクを確認。
 **法令の目**: 用途地域・斜線制限・天空率適用可否・既存不適格・省エネ適合に着目。確認申請リスクを確認。
 **事業性の目**: レンタブル比・建設コスト前提・IRR感度・工期リスクに着目。収支成立性を確認。
+**意匠の目**: 設計コンセプトの明確さ・敷地条件との整合・空間の質・VE時の守り譲りに着目。三角形（コンセプト・予算・法規）の成立性を確認。
 
 ### Step 1.4: 中間報告と深掘り選択
 
@@ -111,6 +113,7 @@ AskUserQuestionで中間報告:
    - 施工: `personas/construction_core.md`
    - 法令: `personas/regulatory_core.md`
    - 事業性: `personas/biz_risk_core.md`
+   - 意匠: `personas/architectural_core.md`
 
 2. Agent toolで子エージェントを起動する。プロンプト:
 
