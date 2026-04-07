@@ -1,5 +1,5 @@
 ---
-name: sld-analyzer
+name: sld
 user-invocable: true
 description: |
   電気設備の単線結線図（SLD）を読み込み、系統構成の抽出・問題点の検出・
