@@ -1,10 +1,12 @@
 ---
 name: sld-analyzer
+user-invocable: true
 description: |
   電気設備の単線結線図（SLD）を読み込み、系統構成の抽出・問題点の検出・
   検証チェックリストの生成を行う図面分析ツール。
   Use when asked to "単線結線図を分析して", "電気図面をチェックして",
   "SLDをレビューして", "結線図の問題点を洗い出して", "electrical diagram review".
+  Args: <file_path> - 分析対象の単線結線図ファイルパス（画像添付時は省略可）
 allowed-tools:
   - Bash
   - Read
